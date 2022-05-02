@@ -1,0 +1,7 @@
+git-commands.txt
+/vendor/
+node-modules/
+detectmobilebrowser.js.txt
+/assets/images/screenshot/android/
+/assets/images/screenshot/ipad/
+/assets/images/screenshot/iphone/
