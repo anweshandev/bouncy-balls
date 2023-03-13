@@ -8,6 +8,6 @@ The pandemic has forced us to live a new way. It introduced us with "remote" mee
 
 ## Quick Demo!
 
-Follow the link: [Bouncy Balls - Noise Detector](https://bouncy.anweshan.online).
+Follow the link: [Bouncy Balls - Noise Detector](https://bouncy.cybrix.in).
 
 ## 

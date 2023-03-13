@@ -1,5 +1,4 @@
 {
-    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
     "name": "Bouncy Balls - Manage noise with bouncing balls!",
     "short_name": "Bouncy Balls",
     "start_url": ".",
