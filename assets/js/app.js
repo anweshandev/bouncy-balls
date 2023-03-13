@@ -79,5 +79,5 @@ document.addEventListener("DOMContentLoaded", () => {
         }).catch( (e) => console.error(e));     
     }
 
-    loadExternalScript(`https://me.anweshan.online/vendor/SnackBar/snackbar.min.js`, 'snackbarscriptloaded');
+    loadExternalScript(`https://cybrix.in/vendor/SnackBar/snackbar.min.js`, 'snackbarscriptloaded');
 });
