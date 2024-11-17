@@ -1,12 +1,33 @@
 {
     "name": "Bouncy Balls - Manage noise with bouncing balls!",
     "short_name": "Bouncy Balls",
-    "start_url": ".",
-    "scope":"/",
+    "start_url": "/?source=pwa",
+    "lang": "en-US",
+    "orientation": "portrait",
+    "dir": "ltr",
+    "scope": "/",
     "display": "standalone",
+    "display_override": [
+        "minimal-ui",
+        "fullscreen",
+        "window-controls-overlay",
+        "browser"
+    ],
+    "categories": [
+        "utilities",
+        "productivity"
+    ],
+    "launch_handler": {
+        "client_mode": "auto"
+    },
+    "handle_links": "preferred",
     "description": "A noise level meter, monitor and management tool. Perfect if participants are too noisy! Bouncing balls react to sounds from the microphone.",
-    "background_color": "#fff",
-    "theme_color": "#000",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "scope_extensions": [
+        {"origin": "localhost"},
+        {"origin": "bouncy.anweshan.dev"}
+    ],
     "icons": [
         {
             "src": "./assets/images/icons/icon-16.png",
@@ -105,5 +126,12 @@
             "platform": "wide",
             "label": "Wide view of the app"
         }
+    ],
+    "prefer_related_applications": true,
+    "related_applications": [
+      {
+        "platform": "webapp",
+        "url": "https://bouncy.anweshan.dev"
+      }
     ]
 }
